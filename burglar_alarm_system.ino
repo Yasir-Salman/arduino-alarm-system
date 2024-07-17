@@ -3,11 +3,13 @@ int echo = 13;
 int buzzer = 7;
 int orangeLed = 2;
 int greenLed = 3;
+int redLed = 4;
 
 void setup(){
   Serial.begin(9600);
   pinMode(orangeLed, OUTPUT);
   pinMode(greenLed, OUTPUT);
+  pinMode(redLed, OUTPUT);
   pinMode(trig, OUTPUT);
   pinMode(echo, INPUT);
   pinMode(buzzer, OUTPUT);
@@ -30,9 +32,11 @@ void loop(){
   
   digitalWrite(orangeLed, HIGH);
   digitalWrite(greenLed, HIGH);
+  digitalWrite(redLed, HIGH);
   delay(400);
   digitalWrite(orangeLed, LOW);
   digitalWrite(greenLed, LOW);
+  digitalWrite(redLed, LOW);
   delay(200);
 
   tone(buzzer, 450);
@@ -46,7 +50,7 @@ void loop(){
   }
    else{
   Serial.println("Safe...");
-// Serial.print("Distance:"); //Distance not needed when safe...right?
+// Serial.print("Distance:"); //Distance not needed when safe
 //  Serial.print(distance);
 //  Serial.println(" cm");
   digitalWrite(buzzer, LOW);
