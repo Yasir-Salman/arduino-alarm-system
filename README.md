@@ -19,7 +19,6 @@ Assembly:
 
 The included schematic diagram is a sample for connecting the components to the Arduino board. Make sure your connections
 are the same both on code and on hardware.
-Schematics Credit: https://www.instructables.com/Arduino-Distance-Detector-with-a-Buzzer-and-LEDs/
 Ensure proper connections and orientations of all components.
 
 
@@ -54,4 +53,5 @@ Further Development
 Integrate a passive infrared (PIR) sensor for more accurate motion detection.
 Implement a keypad or switch to disable the alarm.
 Connect the system to a cloud platform for remote monitoring and notifications.
-This README file provides a basic guide for using the Arduino Ultrasonic Alarm System. Feel free to explore the code and experiment with customizations to suit your specific needs.
+This README file provides a basic guide for using the Arduino Ultrasonic Alarm System. Feel free to explore the code and experiment with customizations to suit your specific needs. 
+Schematics Credit: https://www.instructables.com/Arduino-Distance-Detector-with-a-Buzzer-and-LEDs/
